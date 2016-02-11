@@ -1,3 +1,5 @@
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/xiaomi/hermes/app,system/app)
+
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/xiaomi/hermes/lib,system/lib)
 
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/xiaomi/hermes/lib64,system/lib64)
